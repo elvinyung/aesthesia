@@ -1,0 +1,10 @@
+{
+  "name": "aesthesia",
+  "description": "Make your text a",
+  "version": "0.0.0",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["index.js"]
+  },
+  "manifest_version": 2
+}
