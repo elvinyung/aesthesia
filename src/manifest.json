@@ -1,10 +1,15 @@
 {
   "name": "aesthesia",
-  "description": "Make your text a",
+  "description": "Make your text ａｅｓｔｈｅｔｉｃ",
   "version": "0.0.0",
   "permissions": ["contextMenus"],
   "background": {
-    "scripts": ["index.js"]
+    "scripts": ["background.js"]
   },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"]
+  }],
+
   "manifest_version": 2
 }
