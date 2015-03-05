@@ -7,5 +7,5 @@ Make your text ａｅｓｔｈｅｔｉｃ.
 #### The Easy Way
 Wait for this thing to get published.
 
-### The Hard Way
+#### The Hard Way
 Download `aesthesia.crx` and install it.
