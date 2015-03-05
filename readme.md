@@ -9,7 +9,7 @@ This extension adds a context menu option to make text in input elements Unicode
 
 ### Install
 #### The Easy Way
-Wait for this thing to get published.
+Download [from the Chrome Web Store](https://chrome.google.com/webstore/detail/hgjllhcagjibfpdlcgkakgnnfhboogoj).
 
 #### The Hard Way
 Download `aesthesia.crx` and install it.
