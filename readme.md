@@ -3,7 +3,7 @@
 
 ![ａｅｓｔｈｅｔｉｃ！](http://i.imgur.com/CxAnsjc.png)
 
-Make your text ａｅｓｔｈｅｔｉｃ.
+Make your text ａｅｓｔｈｅｔｉｃ!
 
 This extension adds a context menu option to make text in input elements Unicode fullwidth.
 
