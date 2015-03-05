@@ -3,7 +3,7 @@
 
 Make your text ａｅｓｔｈｅｔｉｃ.
 
-This extension adds a context menu option to make text in input elements ａｅｓｔｈｅｔｉｃ.
+This extension adds a context menu option to make text in input elements Unicode fullwidth.
 
 ### Install
 #### The Easy Way
