@@ -3,6 +3,8 @@
 
 Make your text ａｅｓｔｈｅｔｉｃ.
 
+This extension adds a context menu option to make text in input elements ａｅｓｔｈｅｔｉｃ.
+
 ### Install
 #### The Easy Way
 Wait for this thing to get published.
