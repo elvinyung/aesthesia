@@ -15,6 +15,6 @@ var aesthesize = function aesthesize() {
   node.value = before + replace + after;
 };
 
-chrome.extension.onMessage.addListener(function (message, sender, callback) {
+chrome.extension.onMessage.addListener(function onMsg(message, sender, callback) {
   (message.cmd == "aesthesize") && aesthesize();
 });
