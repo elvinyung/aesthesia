@@ -9,11 +9,15 @@ var paths = {
   src: 'src/*',
   dest: 'dist',
   crx: 'aesthesia.crx',
-  pack: 'aesthesia.zip'
+  zip: 'aesthesia.zip'
 };
 
 gulp.task('clean', function(cb) {
   del(paths.dest, cb);
+});
+
+gulp.task('cleanzip', function(cb) {
+  del(paths.zip, cb);
 });
 
 gulp.task('crx', function() {
@@ -21,6 +25,13 @@ gulp.task('crx', function() {
     .pipe(zip(paths.crx))
     .pipe(gulp.dest(paths.dest))
     .pipe(notify('Zipped source files into ' + paths.dest));
+});
+
+gulp.task('zip', ['cleanzip'], function() {
+  return gulp.src(paths.src)
+    .pipe(zip(paths.zip))
+    .pipe(gulp.dest('.'))
+    .pipe(notify('Package created'));
 });
 
 gulp.task('default', ['clean'], function() {
