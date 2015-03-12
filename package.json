@@ -1,0 +1,28 @@
+{
+  "name": "aesthesia",
+  "version": "1.0.0",
+  "description": "Chrome extension for making text aesthetic",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "",
+    "gulp-notify": "",
+    "gulp-zip": "",
+    "del": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elvinyung/aesthesia.git"
+  },
+  "keywords": [
+    "aesthetic"
+  ],
+  "author": "Elvin Yung <foss@elvinyung.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elvinyung/aesthesia/issues"
+  },
+  "homepage": "https://github.com/elvinyung/aesthesia"
+}
