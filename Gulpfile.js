@@ -8,14 +8,15 @@ var gulp = require('gulp'),
 var paths = {
   src: 'src/*',
   dest: 'dist',
-  crx: 'aesthesia.crx'
+  crx: 'aesthesia.crx',
+  pack: 'aesthesia.zip'
 };
 
 gulp.task('clean', function(cb) {
   del(paths.dest, cb);
 });
 
-gulp.task('zip', function() {
+gulp.task('crx', function() {
   return gulp.src(paths.src)
     .pipe(zip(paths.crx))
     .pipe(gulp.dest(paths.dest))
@@ -23,6 +24,6 @@ gulp.task('zip', function() {
 });
 
 gulp.task('default', ['clean'], function() {
-  gulp.start('zip');
+  gulp.start('crx');
 });
 
