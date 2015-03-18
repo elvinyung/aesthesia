@@ -1,7 +1,7 @@
 
 chrome.contextMenus.create({
   title: 'Make "%s" ａｅｓｔｈｅｔｉｃ', 
-  contexts:['selection'], 
+  contexts:['editable'], 
   onclick: function onclick(info, tab) {
     chrome.tabs.query({
       active: true,
